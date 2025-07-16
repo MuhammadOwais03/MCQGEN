@@ -1,0 +1,11 @@
+MCQ,Choices,Correct
+Which Russian mathematician is credited with the development of Markov chains?,a: Andrey Markov | b: Harold Cohen | c: Eugeny Onegin | d: Variational autoencoder,a
+What was the first text corpus that Andrey Markov analyzed using Markov chains?,a: Eugeny Onegin | b: AARON | c: GPT-2 | d: Transformer network,a
+Which computer program was created by Harold Cohen to generate paintings?,a: AARON | b: Generative adversarial network | c: Deep learning | d: State space search,a
+What technology was considered relatively mature in the early 1990s for generating crisis action plans for military use?,a: Variational autoencoder | b: Generative AI planning systems | c: Markov chains | d: GPT-1,b
+Which technology was used to generate process plans for manufacturing in the 1980s and 1990s?,a: Constraint satisfaction | b: Neural networks | c: Generative models | d: Deep learning,a
+What advancements in 2014 allowed for the first practical deep neural networks capable of learning generative models for complex data?,a: Markov chains | b: Variational autoencoder | c: Deep learning | d: Generative adversarial network,b
+Which network enabled advancements in generative models compared to older Long-Short Term Memory models in 2017?,a: Markov chains | b: GPT-1 | c: Variational autoencoder | d: Transformer network,d
+What was the first generative pre-trained transformer known as in 2018?,a: GPT-1 | b: Generative adversarial network | c: Deep learning | d: AARON,a
+Which model demonstrated the ability to generalize unsupervised to many different tasks as a Foundation model in 2019?,a: GPT-1 | b: GPT-2 | c: Transformer network | d: Generative models,b
+What did unsupervised learning enable in the training of large neural networks?,a: Manual labeling of data | b: Use of discriminative models | c: Generative modeling | d: Constraint satisfaction,c
