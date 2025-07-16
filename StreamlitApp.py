@@ -96,7 +96,7 @@ st.markdown("""
 @st.cache_data
 def load_response_template():
     try:
-        with open("/home/abdul/Desktop/GENAI/projectOne/Response.json", "r") as file:
+        with open("./Response.json", "r") as file:
             return json.load(file)
     except FileNotFoundError:
         st.error("Response.json file not found. Please ensure the file exists at the specified path.")
