@@ -1,12 +1,14 @@
-Metadata-Version: 2.1
-Name: mcq-generator
+Metadata-Version: 2.4
+Name: mcq_generator
 Version: 0.0.1
-Summary: UNKNOWN
-Home-page: UNKNOWN
 Author: Muhammad Owais
 Author-email: owaisiqbal2021@gmail.com
-License: UNKNOWN
-Platform: UNKNOWN
-
-UNKNOWN
-
+Requires-Dist: openai
+Requires-Dist: langchain
+Requires-Dist: streamlit
+Requires-Dist: python-dotenv
+Requires-Dist: PyPDF2
+Requires-Dist: langchain-community
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
