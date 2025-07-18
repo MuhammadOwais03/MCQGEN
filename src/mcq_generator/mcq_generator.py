@@ -6,12 +6,15 @@ from langchain.chains import SequentialChain
 from langchain.callbacks import get_openai_callback
 import PyPDF2
 import os
+import streamlit as st
 from dotenv import load_dotenv
 load_dotenv()
 
 
-key = os.getenv("OPENAI_API_KEY")
-api_base_url = os.getenv("OPENAI_API_BASE")
+# key = os.getenv("OPENAI_API_KEY")
+# api_base_url = os.getenv("OPENAI_API_BASE")
+key = st.secrets["OPENAI_API_KEY"]
+api_base_url = st.secrets["OPENAI_API_BASE"]
 
 TEMPLATE="""
 Text:{text}

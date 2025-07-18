@@ -1,4 +1,4 @@
-Metadata-Version: 2.4
+Metadata-Version: 2.1
 Name: mcq_generator
 Version: 0.0.1
 Author: Muhammad Owais
@@ -9,6 +9,3 @@ Requires-Dist: streamlit
 Requires-Dist: python-dotenv
 Requires-Dist: PyPDF2
 Requires-Dist: langchain-community
-Dynamic: author
-Dynamic: author-email
-Dynamic: requires-dist
