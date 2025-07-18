@@ -92,6 +92,10 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+
+st.write("API key loaded?", "OPENAI_API_KEY" in st.secrets)
+st.write("Base URL:", st.secrets.get("OPENAI_API_KEY"),st.secrets.get("OPENAI_API_BASE"))
+
 # Load response template
 @st.cache_data
 def load_response_template():
