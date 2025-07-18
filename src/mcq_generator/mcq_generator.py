@@ -16,6 +16,9 @@ load_dotenv()
 key = st.secrets["OPENAI_API_KEY"]
 api_base_url = st.secrets["OPENAI_API_BASE"]
 
+st.write("API key loaded?", "OPENAI_API_KEY" in st.secrets)
+st.write("Base URL:", st.secrets.get("OPENAI_API_KEY"))
+
 TEMPLATE="""
 Text:{text}
 You are an expert MCQ maker. Given the above text, it is your job to \
